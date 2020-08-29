@@ -1,0 +1,19 @@
+<html>
+ <body>
+  <?php  
+   $a= intval($_get["t"]);
+   $b= intval($_get["t"]);
+   $c= intval($_get["t"]);
+   $d= intval($_get["t"]);
+   $e= intval($_get["t"]);
+   $f= $a + $b + $c + $d + $e
+   $g= $f/5
+if($g>=90)
+     echo "A";
+    elseif($g>=80) 
+     echo "B";
+     elseif($g<80) 
+     echo "c";
+    ?>              
+ </body>
+</html>
